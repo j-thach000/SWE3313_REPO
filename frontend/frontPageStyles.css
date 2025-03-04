@@ -87,8 +87,8 @@ body {
 .order-section {
     text-align: center;
     background-color: #fdf9c3; /* Light yellow */
-    width: 100vw; /* Full width */
-    min-height: 50vh; /* Adjust this based on your layout */
+    width: 100vw; 
+    min-height: 50vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@ body {
 }
 
 .pizza-container img {
-    width: 30%; /* Adjust width based on actual image size */
+    width: 30%; 
     border: 10px solid yellow;
    
 }
