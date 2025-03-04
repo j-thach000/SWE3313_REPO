@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.bottom-nav {
+    background-color: lightgray;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+    position: fixed;    
+    bottom: 0;
+    width: 100%;
+   
+
+}
+.bottom-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.bottom-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+}
+.bottom-logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.bottom-logos img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+.order-section {
+    text-align: center;
+    background-color: #fdf9c3; /* Light yellow */
+    width: 100vw; 
+    min-height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.order-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Buttons and lines container */
+.order-buttons-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-between;
+}
+
+/* Horizontal lines */
+.line {
+    flex-grow: 5;
+    height: 5px;
+    background-color: black;
+    margin: 0 20px; /* Space between line and buttons */
+}
+
+.order-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.order-btn {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.pizza-container img {
+    width: 30%; 
+    border: 10px solid yellow;
+   
+}
+
+
