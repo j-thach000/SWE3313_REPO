@@ -1,4 +1,4 @@
-/* Center the login container */
+
 .login-page {
   display: flex;
   justify-content: center;
@@ -7,7 +7,6 @@
   background-color: #f8f9fa;
 }
 
-/* Style the login box */
 .login-container {
   background: white;
   padding: 30px;
@@ -17,13 +16,11 @@
   width: 350px;
 }
 
-/* Style the title */
 h2 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Style input fields */
 .input-group {
   margin-bottom: 15px;
 }
@@ -37,7 +34,6 @@ h2 {
   outline: none;
 }
 
-/* Forgot password link */
 .forgot-password {
   text-align: right;
   margin-bottom: 15px;
@@ -52,7 +48,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* Style the Sign In button */
 .sign-in-btn {
   width: 100%;
   padding: 12px;
@@ -69,7 +64,6 @@ h2 {
   background-color: #e6b800;
 }
 
-/* Social login buttons */
 .social-login {
   display: flex;
   justify-content: space-between;
@@ -106,3 +100,17 @@ h2 {
   width: 50px;
   margin-bottom: 10px;
 }
+
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-password-btn:hover {
+  color: #0056b3;
+}
+

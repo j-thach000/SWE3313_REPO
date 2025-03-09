@@ -1,6 +1,6 @@
 import React from "react";
 import Login from "./Login";
-import Footer from "./Footer"; // Import the Footer
+import Footer from "./Footer";
 
 function App() {
   return (

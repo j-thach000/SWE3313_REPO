@@ -4,11 +4,11 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <a href="#">Register</a>
-      <a href="#">Overall Menu</a>
-      <a href="#">Cart</a>
-      <a href="#">Checkout</a>
-      <a href="#">Account</a>
+      <button onClick={() => alert("Register Clicked")}>Register</button>
+      <button onClick={() => alert("Overall Menu Clicked")}>Overall Menu</button>
+      <button onClick={() => alert("Cart Clicked")}>Cart</button>
+      <button onClick={() => alert("Checkout Clicked")}>Checkout</button>
+      <button onClick={() => alert("Account Clicked")}>Account</button>
     </div>
   );
 }

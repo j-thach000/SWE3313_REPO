@@ -17,7 +17,9 @@ function Login() {
             <input type="password" placeholder="Password" />
           </div>
           <div className="forgot-password">
-            <a href="#">Forgot Password?</a>
+            <button className="forgot-password-btn" onClick={() => alert("Forgot Password Clicked")}>
+              Forgot Password?
+            </button>
           </div>
           <button type="submit" className="sign-in-btn">Sign In</button>
           <div className="social-login">
