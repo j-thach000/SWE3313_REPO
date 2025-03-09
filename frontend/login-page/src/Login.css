@@ -1,0 +1,116 @@
+
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+.sign-in-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffcc00;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-in-btn:hover {
+  background-color: #e6b800;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.facebook-btn, .google-btn {
+  width: 48%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.facebook-btn {
+  background-color: #1877f2;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.facebook-btn:hover {
+  background-color: #1558b3;
+}
+
+.google-btn:hover {
+  background-color: #b33224;
+}
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.forgot-password-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.forgot-password-btn:hover {
+  color: #0056b3;
+}
+
