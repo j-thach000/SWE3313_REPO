@@ -1,5 +1,5 @@
 import express from 'express'
-import { supabase } from '../config/supabase.js'
+import { supabase } from './supabase.js'
 
 const router = express.Router()
 
@@ -7,10 +7,14 @@ const router = express.Router()
 router.post('/signup', async (req, res) => {
     try {
         const { email, password } = req.body
-        
+
+        if (!email || !password) {
+            return res.status(400).json({ error: "Email and password are required" })
+        }
+
         const { data, error } = await supabase.auth.signUp({
-            email,
-            password,
+            email: email,
+            password: password,
         })
 
         if (error) throw error
@@ -23,7 +27,6 @@ router.post('/signup', async (req, res) => {
         res.status(400).json({ error: error.message })
     }
 })
-
 // Login route
 router.post('/login', async (req, res) => {
     try {
