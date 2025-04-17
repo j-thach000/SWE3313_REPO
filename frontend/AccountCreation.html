@@ -3,43 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Create Account - PizzaVibe</title>
     <link rel="stylesheet" href="Creation.css">
 </head>
-
 <body>
-    <!-- Top Nav Bar -->
     <nav class="navbar">
         <div class="logo">
             <img src="frontPageImages/pizzaLogo.webp" alt="PizzaVibe logo">
             <span>PizzaVibe</span>
         </div>
         <ul class="nav-links">
-            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="Cart.html">Cart</a></li>
             <li><a href="loginScreen.html">Sign In</a></li>
         </ul>
     </nav>
 
-
-    <div class="account-creation-container">
-        <div class="account-creation-form">
-            <div class="form-header">
-                <h2>Create an Account</h2>
+    <div class="account-container">
+        <div class="account-form">
+            <h2>Create Account</h2>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
             </div>
-            <div class="inputs">
-                <h2>Name</h2>
-                <textarea name="name" rows="1" cols="50"></textarea>
-                <h2>Email</h2>
-                <textarea name="email" rows="1" cols="50"></textarea>
-                <h2>Password</h2>
-                <textarea name="password" rows="1" cols="50"></textarea>
-                <button class ="button">Register</button>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
             </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <label for="profile">Profile Picture</label>
+                <input type="file" id="profile">
+            </div>
+            <button class="register-btn">Register</button>
         </div>
     </div>
 
-    <!-- Bottom Nav Bar -->
     <nav class="bottom-nav">
         <ul class="bottom-links">
             <li><a href="#">Privacy Policy</a></li>
@@ -49,6 +51,8 @@
         <div class="bottom-logos">
             <img src="frontPageImages/faceBookLogo.png" alt="Facebook logo">
             <img src="frontPageImages/twitter.png" alt="Twitter logo">
-            <img src="frontPageImages/IGLogo.png" alt="Instagram logo" >
+            <img src="frontPageImages/IGLogo.png" alt="Instagram logo">
         </div>
     </nav>
+</body>
+</html>

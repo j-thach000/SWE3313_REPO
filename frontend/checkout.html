@@ -3,49 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
-    <link rel="stylesheet" href="Creation.css">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
 </head>
-
 <body>
-    <!-- Top Nav Bar -->
     <nav class="navbar">
         <div class="logo">
             <img src="frontPageImages/pizzaLogo.webp" alt="PizzaVibe logo">
             <span>PizzaVibe</span>
         </div>
         <ul class="nav-links">
-            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="menu.html">Menu</a></li>
             <li><a href="Cart.html">Cart</a></li>
             <li><a href="loginScreen.html">Sign In</a></li>
         </ul>
     </nav>
 
-
     <div class="checkout-container">
-        <div class="deliv info">
+        <div class="deliv-info">
             <h2>Delivery Details</h2>
-            <textarea name="name" rows="1" cols="50"></textarea>
-            <textarea name="address" rows="1" cols="50"></textarea>
-            <textarea name="phone" rows="1" cols="50"></textarea>
+            <input type="text" placeholder="Full Name" class="input-field">
+            <input type="text" placeholder="Address" class="input-field">
+            <input type="text" placeholder="Phone Number" class="input-field">
         </div>
-        <div class="payment info">
+        
+        <div class="payment-info">
             <h2>Payment Options</h2>
-            <button>Credit Card</button>
-            <button>Paypal</button>
-            <button>Cash on Delivery</button>
-            
+            <div class="payment-buttons">
+                <button class="payment-btn">Credit Card</button>
+                <button class="payment-btn">PayPal</button>
+                <button class="payment-btn">Cash on Delivery</button>
+            </div>
         </div>
-        <div class="order summary">
+        
+        <div class="order-summary">
             <h2>Order Summary</h2>
-            <button>Place Order</button>
+            <div class="summary-content">
+                <div class="total">
+                    <span>Total</span>
+                    <span>$0.00</span>
+                </div>
+                <button class="place-order-btn">Place Order</button>
+            </div>
         </div>
     </div>
 
-
-
-
-    <!-- Bottom Nav Bar -->
     <nav class="bottom-nav">
         <ul class="bottom-links">
             <li><a href="#">Privacy Policy</a></li>
@@ -55,6 +57,8 @@
         <div class="bottom-logos">
             <img src="frontPageImages/faceBookLogo.png" alt="Facebook logo">
             <img src="frontPageImages/twitter.png" alt="Twitter logo">
-            <img src="frontPageImages/IGLogo.png" alt="Instagram logo" >
+            <img src="frontPageImages/IGLogo.png" alt="Instagram logo">
         </div>
     </nav>
+</body>
+</html>
