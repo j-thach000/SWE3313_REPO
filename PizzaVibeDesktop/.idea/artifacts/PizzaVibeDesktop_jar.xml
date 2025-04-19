@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PizzaVibeDesktop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PizzaVibeDesktop_jar</output-path>
+    <root id="archive" name="PizzaVibeDesktop.jar">
+      <element id="module-output" name="PizzaVibeDesktop" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar" path-in-jar="/" />
+      <element id="file-copy" path="$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.36.0.3/sqlite-jdbc-3.36.0.3.jar" />
+    </root>
+  </artifact>
+</component>
