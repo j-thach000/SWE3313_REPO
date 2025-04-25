@@ -45,9 +45,22 @@ public class MenuViewPage extends JFrame {
         add(new JScrollPane(mainPanel), BorderLayout.CENTER);
 
         // View Cart button at bottom
+        JPanel bottomPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 20, 10));
+
         JButton viewCartButton = new JButton("View Cart");
+        viewCartButton.setFont(new Font("Arial", Font.PLAIN, 16));
         viewCartButton.addActionListener(e -> CartPage.showCartPage());
-        add(viewCartButton, BorderLayout.SOUTH);
+
+        JButton checkoutButton = new JButton("Checkout");
+        checkoutButton.setFont(new Font("Arial", Font.PLAIN, 16));
+        checkoutButton.setBackground(new Color(144, 238, 144)); // light green
+        checkoutButton.setFocusPainted(false);
+        checkoutButton.addActionListener(e -> CheckoutPage.showCheckoutPage());
+
+        bottomPanel.add(viewCartButton);
+        bottomPanel.add(checkoutButton);
+
+        add(bottomPanel, BorderLayout.SOUTH);
 
         setVisible(true);
     }
