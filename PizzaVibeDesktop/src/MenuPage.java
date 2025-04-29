@@ -44,7 +44,11 @@ public class MenuPage {
         });
 
         JButton checkoutButton = new JButton("Checkout");
-
+        checkoutButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                CheckoutPage.showCheckoutPage();
+            }
+        });
         panel.add(menuButton);
         panel.add(cartButton);
         panel.add(checkoutButton);

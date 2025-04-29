@@ -50,6 +50,19 @@ public class Main {
             }
         });
 
+        JButton createAccountButton = new JButton("Don't have an account?");
+        createAccountButton.setBounds(100, 300, 200, 20);
+        createAccountButton.setFont(new Font("Arial", Font.PLAIN, 12));
+        createAccountButton.setBorderPainted(false);
+        createAccountButton.setContentAreaFilled(false);
+        createAccountButton.setForeground(Color.BLUE);
+        createAccountButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        createAccountButton.addActionListener(e -> {
+            frame.dispose(); // close current screen
+            CreateAccountScreen.main(null); // go to account creation
+        });
+        frame.add(createAccountButton);
+
         frame.setVisible(true);
     }
 }
